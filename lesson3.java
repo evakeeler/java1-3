@@ -31,7 +31,8 @@ public class Main {
         guessNumber();
     }
 
-        public static void guessNumber() {
+        
+    public static void guessNumber() {
             Scanner sc = new Scanner(System.in);
             int answer = 0;
             int enter;
@@ -66,7 +67,8 @@ public class Main {
 
         }
 
-        public static void endGame () {
+        
+    public static void endGame () {
             Scanner sc = new Scanner(System.in);
             int enter;
             if (sc.hasNextInt()) {
